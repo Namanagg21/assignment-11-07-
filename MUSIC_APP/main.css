@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo img {
+  height: 120px;
+  padding: 0px 30px;
+}
+header {
+  color: whitesmoke;
+  background-color: rgb(2, 104, 33);
+}
+.flex {
+  display: flex;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+header .logo {
+  height: 40px;
+  padding: 10px;
+}
+header .Search-bar {
+  padding: 0px 100px;
+}
+header .right-side {
+  padding: 50%;
+}
+.player audio {
+  bottom: 0;
+}
+.hi {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
